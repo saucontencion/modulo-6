@@ -41,4 +41,16 @@
     - `res.send()`
     - `res.sendFile()`
     - `res.sendStatus()`
+2. /abracadabra/juego/:usuario: A través de un middleware, verificar que el usuario
+escrito como parámetro existe en el arreglo alojado en el servidor.
+-- traduccion:
+    " A través de un middleware" - creamos unn midleware con use para la ruta /abracadabra/juego/:usuario 
+    "verificar que el usuario escrito como parámetro"- capturamos en una variable el parametro 
+        __EL objeto request trae dentro los parametros__:
+        - `req.paramas` 
+        _esto sale de:_
+        - `Route path: /users/:userId/books/:bookId
+            Request URL: http://localhost:3000/users/34/books/8989
+            req.params: { "userId": "34", "bookId": "8989" }`
+    "verificar que usuario parámetro existe en el arreglo" - usa una condicion if para verificar.
 
