@@ -10,4 +10,9 @@
     1. instalamos express
         - en la terminal ejecutamos npm install express
             1. se nos creara el archivo node_modules y package-lock.json
-            
+
+.--> segundo agregamos los recursos y archivos sobre lo que trabajaremos <--.
+    1 creamos la carpeta public para los archivos que serviremos en el navegador
+    2 en public agregar los recursos estaticos de infocap apoyo al desafio
+        - corregimos src de las img agregando assets a la rutas
+    3 creamos el archivo index.js
