@@ -54,3 +54,12 @@ escrito como parámetro existe en el arreglo alojado en el servidor.
             req.params: { "userId": "34", "bookId": "8989" }`
     "verificar que usuario parámetro existe en el arreglo" - usa una condicion if para verificar.
 
+3. /abracadabra/conejo/:n: Basado en un número aleatorio del 1 al 4, devolver la foto del
+conejo en caso de coincidir con el número recibido como parámetro ó devolver la foto
+de Voldemort en caso de no coincidir. 
+-- traduccion:
+    -"/abracadabra/conejo/:n:" un get para la ruta
+    -"Basado en un número aleatorio del 1 al 4" crear un numero
+    -"devolver la foto del conejo " response con un archivo, configurar una ruta
+    -"en caso de coincidir con el número recibido como parámetro" un if y almacenar el parametro
+    -"ó devolver la foto de Voldemort en caso de no coincidir" else y otra ruta 

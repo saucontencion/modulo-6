@@ -26,6 +26,17 @@ app.use("/abracadabra/juego/:usuario", (req,res,next)=>{
     };
     next();
 })
+app.get("/abracadabra/conejo/:n",(req,res)=>{
+    const numero = Math.floor(Math.random() * 4) + 1;
+    const params = req.params.n;
+    // numero es numero y params es string tengo que transformar 1 o usar una comparacion suave ==
+    if (params == numero) {
+        res.sendFile(__dirname+"/public/assets/conejito.jpg")
+    } else { 
+        res.sendFile((__dirname+"/public/asstes/voldemort.jpg"))
+    }
+
+});
 
 app.listen(3000,()=>{
     //'en la terminal ejecuta node index.js para levantarme
