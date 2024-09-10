@@ -16,3 +16,6 @@
     2 en public agregar los recursos estaticos de infocap apoyo al desafio
         - corregimos src de las img agregando assets a la rutas
     3 creamos el archivo index.js
+##  require express, indicamos puerto de escucha y levantamos servidor 
+    (es autodescriptivo el subencabezado)
+    {3} ejecutamos en la terminal "node index.js" para levantar el servidor
