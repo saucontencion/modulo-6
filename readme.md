@@ -24,3 +24,21 @@
     servimos index.html para que se vea en localhost:3000
         - usamos el primer middleware. con app.use
 
+## comenzamos con los requerimientos verdaderos del proyecto
+1. La ruta: `/abracadabra/usuarios` debe devolver un JSON con un arreglo de nombres alojado en el servidor.
+    - Creamos el JSON.
+    - Creamos la escucha para la solicitud GET en la ruta `/abracadabra/usuarios`.
+    - Usamos el método `json` del objeto `response`.
+
+    __Recordemos que el objeto `response` contiene varios métodos como__:
+    
+    - `res.download()`
+    - `res.end()`
+    - `res.json()`
+    - `res.jsonp()`
+    - `res.redirect()`
+    - `res.render()`
+    - `res.send()`
+    - `res.sendFile()`
+    - `res.sendStatus()`
+
