@@ -19,3 +19,8 @@
 ##  require express, indicamos puerto de escucha y levantamos servidor 
     (es autodescriptivo el subencabezado)
     {3} ejecutamos en la terminal "node index.js" para levantar el servidor
+
+## servimos el archivo statico 
+    servimos index.html para que se vea en localhost:3000
+        - usamos el primer middleware. con app.use
+
